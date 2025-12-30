@@ -1,0 +1,50 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0f172a"/>
+
+  <!-- Grid pattern -->
+  <defs>
+    <pattern id="grid1" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid1)"/>
+  <rect width="800" height="600" fill="url(#grad1)"/>
+
+  <!-- Dashboard mockup -->
+  <rect x="60" y="60" width="680" height="480" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+
+  <!-- Header bar -->
+  <rect x="60" y="60" width="680" height="50" rx="16" fill="#0f172a"/>
+  <circle cx="90" cy="85" r="8" fill="#ef4444"/>
+  <circle cx="115" cy="85" r="8" fill="#f59e0b"/>
+  <circle cx="140" cy="85" r="8" fill="#22c55e"/>
+
+  <!-- Sidebar -->
+  <rect x="60" y="110" width="160" height="430" fill="#0f172a"/>
+  <rect x="80" y="140" width="120" height="12" rx="2" fill="#334155"/>
+  <rect x="80" y="170" width="100" height="10" rx="2" fill="#1e293b"/>
+  <rect x="80" y="195" width="110" height="10" rx="2" fill="#1e293b"/>
+  <rect x="80" y="220" width="90" height="10" rx="2" fill="#1e293b"/>
+  <rect x="80" y="245" width="105" height="10" rx="2" fill="#3b82f6" opacity="0.5"/>
+  <rect x="80" y="270" width="95" height="10" rx="2" fill="#1e293b"/>
+
+  <!-- Main content -->
+  <rect x="240" y="130" width="200" height="100" rx="12" fill="#0f172a"/>
+  <text x="260" y="160" font-family="system-ui" font-size="12" fill="#64748b">Revenue</text>
+  <text x="260" y="200" font-family="system-ui" font-size="28" font-weight="bold" fill="#3b82f6">$124,500</text>
+
+  <rect x="460" y="130" width="200" height="100" rx="12" fill="#0f172a"/>
+  <text x="480" y="160" font-family="system-ui" font-size="12" fill="#64748b">Orders</text>
+  <text x="480" y="200" font-family="system-ui" font-size="28" font-weight="bold" fill="#22c55e">2,847</text>
+
+  <!-- Chart area -->
+  <rect x="240" y="250" width="480" height="220" rx="12" fill="#0f172a"/>
+  <polyline points="270,420 330,380 390,400 450,340 510,360 570,300 630,320 690,280"
+            stroke="#3b82f6" stroke-width="3" fill="none"/>
+  <polyline points="270,420 330,400 390,420 450,380 510,400 570,360 630,380 690,350"
+            stroke="#8b5cf6" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+</svg>

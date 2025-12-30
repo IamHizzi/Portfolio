@@ -1,0 +1,84 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0f172a"/>
+
+  <defs>
+    <linearGradient id="gradAI3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#22c55e;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gradAI3)"/>
+
+  <!-- Title -->
+  <text x="60" y="50" font-family="system-ui" font-size="24" font-weight="bold" fill="white">Real-Time Object Detection</text>
+  <text x="60" y="75" font-family="system-ui" font-size="12" fill="#64748b">YOLOv8 + TensorRT | Edge Deployment</text>
+
+  <!-- Main detection view -->
+  <rect x="60" y="100" width="480" height="360" rx="12" fill="#1e293b" stroke="#334155"/>
+
+  <!-- Detection boxes -->
+  <rect x="100" y="150" width="140" height="180" rx="4" fill="none" stroke="#22c55e" stroke-width="2"/>
+  <rect x="95" y="140" width="60" height="16" rx="2" fill="#22c55e"/>
+  <text x="103" y="152" font-family="system-ui" font-size="9" fill="white">Person 98%</text>
+
+  <rect x="280" y="180" width="120" height="100" rx="4" fill="none" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="275" y="170" width="50" height="16" rx="2" fill="#3b82f6"/>
+  <text x="283" y="182" font-family="system-ui" font-size="9" fill="white">Car 95%</text>
+
+  <rect x="380" y="250" width="80" height="60" rx="4" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="375" y="240" width="50" height="16" rx="2" fill="#f59e0b"/>
+  <text x="383" y="252" font-family="system-ui" font-size="9" fill="white">Dog 91%</text>
+
+  <rect x="150" y="350" width="200" height="80" rx="4" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  <rect x="145" y="340" width="55" height="16" rx="2" fill="#8b5cf6"/>
+  <text x="153" y="352" font-family="system-ui" font-size="9" fill="white">Truck 94%</text>
+
+  <!-- FPS indicator -->
+  <rect x="80" y="420" width="80" height="30" rx="6" fill="#22c55e"/>
+  <text x="100" y="440" font-family="system-ui" font-size="14" font-weight="bold" fill="white">62 FPS</text>
+
+  <!-- Inference time -->
+  <rect x="170" y="420" width="100" height="30" rx="6" fill="#3b82f6" opacity="0.2" stroke="#3b82f6"/>
+  <text x="185" y="440" font-family="system-ui" font-size="11" fill="#3b82f6">16.1ms</text>
+
+  <!-- Model info panel -->
+  <rect x="560" y="100" width="180" height="150" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="580" y="130" font-family="system-ui" font-size="12" font-weight="bold" fill="white">Model Info</text>
+
+  <text x="580" y="160" font-family="system-ui" font-size="10" fill="#64748b">Architecture</text>
+  <text x="580" y="178" font-family="system-ui" font-size="11" fill="#06b6d4">YOLOv8-L</text>
+
+  <text x="580" y="205" font-family="system-ui" font-size="10" fill="#64748b">Optimization</text>
+  <text x="580" y="223" font-family="system-ui" font-size="11" fill="#22c55e">TensorRT FP16</text>
+
+  <!-- Performance metrics -->
+  <rect x="560" y="270" width="180" height="190" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="580" y="300" font-family="system-ui" font-size="12" font-weight="bold" fill="white">Performance</text>
+
+  <rect x="580" y="320" width="140" height="40" rx="8" fill="#22c55e" opacity="0.15"/>
+  <text x="595" y="338" font-family="system-ui" font-size="10" fill="#64748b">mAP@50</text>
+  <text x="595" y="355" font-family="system-ui" font-size="16" font-weight="bold" fill="#22c55e">92.4%</text>
+
+  <rect x="580" y="370" width="140" height="40" rx="8" fill="#3b82f6" opacity="0.15"/>
+  <text x="595" y="388" font-family="system-ui" font-size="10" fill="#64748b">Latency</text>
+  <text x="595" y="405" font-family="system-ui" font-size="16" font-weight="bold" fill="#3b82f6">&lt;16ms</text>
+
+  <rect x="580" y="420" width="140" height="35" rx="8" fill="#8b5cf6" opacity="0.15"/>
+  <text x="595" y="443" font-family="system-ui" font-size="10" fill="#8b5cf6">Classes: 80</text>
+
+  <!-- Edge device indicator -->
+  <rect x="60" y="480" width="680" height="80" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="80" y="510" font-family="system-ui" font-size="12" font-weight="bold" fill="white">Edge Deployment</text>
+
+  <rect x="80" y="525" width="120" height="25" rx="4" fill="#06b6d4" opacity="0.2" stroke="#06b6d4"/>
+  <text x="100" y="542" font-family="system-ui" font-size="10" fill="#06b6d4">Jetson Orin</text>
+
+  <rect x="220" y="525" width="120" height="25" rx="4" fill="#22c55e" opacity="0.2" stroke="#22c55e"/>
+  <text x="240" y="542" font-family="system-ui" font-size="10" fill="#22c55e">60+ FPS</text>
+
+  <rect x="360" y="525" width="120" height="25" rx="4" fill="#8b5cf6" opacity="0.2" stroke="#8b5cf6"/>
+  <text x="380" y="542" font-family="system-ui" font-size="10" fill="#8b5cf6">ONNX Ready</text>
+
+  <rect x="500" y="525" width="120" height="25" rx="4" fill="#f59e0b" opacity="0.2" stroke="#f59e0b"/>
+  <text x="520" y="542" font-family="system-ui" font-size="10" fill="#f59e0b">10W Power</text>
+</svg>

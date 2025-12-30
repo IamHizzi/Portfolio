@@ -1,0 +1,96 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0f172a"/>
+
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#grad5)"/>
+
+  <!-- Main dashboard -->
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="720" height="50" rx="16" fill="#0f172a"/>
+  <text x="70" y="72" font-family="system-ui" font-size="18" font-weight="bold" fill="white">DevMetrics</text>
+  <rect x="650" y="55" width="90" height="24" rx="4" fill="#8b5cf6"/>
+  <text x="670" y="72" font-family="system-ui" font-size="11" fill="white">Export</text>
+
+  <!-- DORA metrics cards -->
+  <rect x="60" y="110" width="160" height="100" rx="12" fill="#0f172a"/>
+  <text x="80" y="135" font-family="system-ui" font-size="11" fill="#64748b">Deployment Freq</text>
+  <text x="80" y="170" font-family="system-ui" font-size="28" font-weight="bold" fill="#22c55e">12/day</text>
+  <text x="80" y="195" font-family="system-ui" font-size="10" fill="#22c55e">+15% vs last week</text>
+
+  <rect x="235" y="110" width="160" height="100" rx="12" fill="#0f172a"/>
+  <text x="255" y="135" font-family="system-ui" font-size="11" fill="#64748b">Lead Time</text>
+  <text x="255" y="170" font-family="system-ui" font-size="28" font-weight="bold" fill="#3b82f6">2.3 hrs</text>
+  <text x="255" y="195" font-family="system-ui" font-size="10" fill="#22c55e">-8% vs last week</text>
+
+  <rect x="410" y="110" width="160" height="100" rx="12" fill="#0f172a"/>
+  <text x="430" y="135" font-family="system-ui" font-size="11" fill="#64748b">Change Failure</text>
+  <text x="430" y="170" font-family="system-ui" font-size="28" font-weight="bold" fill="#f59e0b">4.2%</text>
+  <text x="430" y="195" font-family="system-ui" font-size="10" fill="#22c55e">-2% vs last week</text>
+
+  <rect x="585" y="110" width="160" height="100" rx="12" fill="#0f172a"/>
+  <text x="605" y="135" font-family="system-ui" font-size="11" fill="#64748b">Recovery Time</text>
+  <text x="605" y="170" font-family="system-ui" font-size="28" font-weight="bold" fill="#8b5cf6">45 min</text>
+  <text x="605" y="195" font-family="system-ui" font-size="10" fill="#22c55e">-12% vs last week</text>
+
+  <!-- Activity chart -->
+  <rect x="60" y="230" width="440" height="180" rx="12" fill="#0f172a"/>
+  <text x="80" y="260" font-family="system-ui" font-size="14" font-weight="bold" fill="white">Commit Activity</text>
+
+  <!-- Bar chart -->
+  <rect x="100" y="320" width="30" height="70" rx="4" fill="#3b82f6"/>
+  <rect x="145" y="300" width="30" height="90" rx="4" fill="#3b82f6"/>
+  <rect x="190" y="340" width="30" height="50" rx="4" fill="#3b82f6"/>
+  <rect x="235" y="310" width="30" height="80" rx="4" fill="#3b82f6"/>
+  <rect x="280" y="290" width="30" height="100" rx="4" fill="#8b5cf6"/>
+  <rect x="325" y="320" width="30" height="70" rx="4" fill="#3b82f6"/>
+  <rect x="370" y="350" width="30" height="40" rx="4" fill="#3b82f6"/>
+  <rect x="415" y="330" width="30" height="60" rx="4" fill="#3b82f6"/>
+
+  <!-- Team performance -->
+  <rect x="520" y="230" width="225" height="180" rx="12" fill="#0f172a"/>
+  <text x="540" y="260" font-family="system-ui" font-size="14" font-weight="bold" fill="white">Top Contributors</text>
+
+  <rect x="540" y="280" width="185" height="35" rx="6" fill="#1e293b"/>
+  <circle cx="560" cy="298" r="12" fill="#3b82f6"/>
+  <text x="580" y="295" font-family="system-ui" font-size="11" fill="white">Sarah Chen</text>
+  <text x="580" y="308" font-family="system-ui" font-size="9" fill="#64748b">47 commits</text>
+  <rect x="680" y="290" width="35" height="16" rx="3" fill="#22c55e" opacity="0.2"/>
+  <text x="687" y="302" font-family="system-ui" font-size="9" fill="#22c55e">+12</text>
+
+  <rect x="540" y="325" width="185" height="35" rx="6" fill="#1e293b"/>
+  <circle cx="560" cy="343" r="12" fill="#8b5cf6"/>
+  <text x="580" y="340" font-family="system-ui" font-size="11" fill="white">Alex Kim</text>
+  <text x="580" y="353" font-family="system-ui" font-size="9" fill="#64748b">38 commits</text>
+
+  <rect x="540" y="370" width="185" height="35" rx="6" fill="#1e293b"/>
+  <circle cx="560" cy="388" r="12" fill="#06b6d4"/>
+  <text x="580" y="385" font-family="system-ui" font-size="11" fill="white">Jordan Lee</text>
+  <text x="580" y="398" font-family="system-ui" font-size="9" fill="#64748b">31 commits</text>
+
+  <!-- PR status -->
+  <rect x="60" y="430" width="685" height="110" rx="12" fill="#0f172a"/>
+  <text x="80" y="460" font-family="system-ui" font-size="14" font-weight="bold" fill="white">Pull Request Pipeline</text>
+
+  <rect x="80" y="480" width="120" height="45" rx="8" fill="#22c55e" opacity="0.15"/>
+  <text x="110" y="500" font-family="system-ui" font-size="10" fill="#64748b">Open</text>
+  <text x="120" y="518" font-family="system-ui" font-size="18" font-weight="bold" fill="#22c55e">24</text>
+
+  <rect x="220" y="480" width="120" height="45" rx="8" fill="#f59e0b" opacity="0.15"/>
+  <text x="245" y="500" font-family="system-ui" font-size="10" fill="#64748b">In Review</text>
+  <text x="265" y="518" font-family="system-ui" font-size="18" font-weight="bold" fill="#f59e0b">12</text>
+
+  <rect x="360" y="480" width="120" height="45" rx="8" fill="#3b82f6" opacity="0.15"/>
+  <text x="385" y="500" font-family="system-ui" font-size="10" fill="#64748b">Approved</text>
+  <text x="405" y="518" font-family="system-ui" font-size="18" font-weight="bold" fill="#3b82f6">8</text>
+
+  <rect x="500" y="480" width="120" height="45" rx="8" fill="#8b5cf6" opacity="0.15"/>
+  <text x="530" y="500" font-family="system-ui" font-size="10" fill="#64748b">Merged</text>
+  <text x="545" y="518" font-family="system-ui" font-size="18" font-weight="bold" fill="#8b5cf6">156</text>
+</svg>

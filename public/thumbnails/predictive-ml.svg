@@ -1,0 +1,102 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0f172a"/>
+
+  <defs>
+    <linearGradient id="gradAI4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gradAI4)"/>
+
+  <!-- Title -->
+  <text x="60" y="50" font-family="system-ui" font-size="24" font-weight="bold" fill="white">Predictive Maintenance Pipeline</text>
+  <text x="60" y="75" font-family="system-ui" font-size="12" fill="#64748b">Real-Time IoT Analytics | Time-Series Forecasting</text>
+
+  <!-- Pipeline flow -->
+  <rect x="60" y="100" width="130" height="80" rx="12" fill="#1e293b" stroke="#06b6d4" stroke-width="2"/>
+  <text x="85" y="135" font-family="system-ui" font-size="11" font-weight="bold" fill="white">IoT Sensors</text>
+  <text x="80" y="155" font-family="system-ui" font-size="9" fill="#06b6d4">10K+ devices</text>
+
+  <path d="M190 140 L230 140" stroke="#06b6d4" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="240" y="100" width="130" height="80" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+  <text x="270" y="135" font-family="system-ui" font-size="11" font-weight="bold" fill="white">Kafka</text>
+  <text x="260" y="155" font-family="system-ui" font-size="9" fill="#f59e0b">Stream Process</text>
+
+  <path d="M370 140 L410 140" stroke="#f59e0b" stroke-width="2"/>
+
+  <rect x="420" y="100" width="130" height="80" rx="12" fill="#1e293b" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="455" y="135" font-family="system-ui" font-size="11" font-weight="bold" fill="white">Spark</text>
+  <text x="440" y="155" font-family="system-ui" font-size="9" fill="#8b5cf6">Feature Engine</text>
+
+  <path d="M550 140 L590 140" stroke="#8b5cf6" stroke-width="2"/>
+
+  <rect x="600" y="100" width="140" height="80" rx="12" fill="#1e293b" stroke="#22c55e" stroke-width="2"/>
+  <text x="625" y="135" font-family="system-ui" font-size="11" font-weight="bold" fill="white">ML Model</text>
+  <text x="620" y="155" font-family="system-ui" font-size="9" fill="#22c55e">Prophet + LSTM</text>
+
+  <!-- Time series chart -->
+  <rect x="60" y="200" width="480" height="200" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="80" y="230" font-family="system-ui" font-size="12" font-weight="bold" fill="white">Equipment Health Prediction</text>
+
+  <!-- Actual values line -->
+  <polyline points="100,350 130,340 160,345 190,335 220,330 250,340 280,325 310,320 340,330 370,315 400,310 430,320 460,305"
+            stroke="#3b82f6" stroke-width="2" fill="none"/>
+
+  <!-- Predicted values (dashed) -->
+  <polyline points="460,305 490,295 520,285"
+            stroke="#22c55e" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+
+  <!-- Threshold line -->
+  <line x1="100" y1="280" x2="520" y2="280" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="480" y="275" font-family="system-ui" font-size="8" fill="#ef4444">Threshold</text>
+
+  <!-- Anomaly marker -->
+  <circle cx="370" cy="315" r="8" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="2"/>
+
+  <!-- Legend -->
+  <circle cx="110" cy="380" r="4" fill="#3b82f6"/>
+  <text x="120" y="384" font-family="system-ui" font-size="9" fill="#64748b">Actual</text>
+  <circle cx="180" cy="380" r="4" fill="#22c55e"/>
+  <text x="190" y="384" font-family="system-ui" font-size="9" fill="#64748b">Predicted</text>
+  <circle cx="260" cy="380" r="4" fill="#f59e0b"/>
+  <text x="270" y="384" font-family="system-ui" font-size="9" fill="#64748b">Anomaly</text>
+
+  <!-- Alert panel -->
+  <rect x="560" y="200" width="180" height="200" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="580" y="230" font-family="system-ui" font-size="12" font-weight="bold" fill="white">Active Alerts</text>
+
+  <rect x="575" y="250" width="150" height="45" rx="6" fill="#ef4444" opacity="0.15" stroke="#ef4444"/>
+  <text x="590" y="270" font-family="system-ui" font-size="10" fill="#ef4444">Motor A - Critical</text>
+  <text x="590" y="285" font-family="system-ui" font-size="8" fill="#64748b">72hrs to failure</text>
+
+  <rect x="575" y="305" width="150" height="45" rx="6" fill="#f59e0b" opacity="0.15" stroke="#f59e0b"/>
+  <text x="590" y="325" font-family="system-ui" font-size="10" fill="#f59e0b">Pump B - Warning</text>
+  <text x="590" y="340" font-family="system-ui" font-size="8" fill="#64748b">Vibration anomaly</text>
+
+  <rect x="575" y="360" width="150" height="30" rx="6" fill="#22c55e" opacity="0.15"/>
+  <text x="590" y="380" font-family="system-ui" font-size="10" fill="#22c55e">12 Systems OK</text>
+
+  <!-- Stats -->
+  <rect x="60" y="420" width="160" height="140" rx="12" fill="#1e293b"/>
+  <text x="80" y="455" font-family="system-ui" font-size="10" fill="#64748b">Prediction Accuracy</text>
+  <text x="80" y="495" font-family="system-ui" font-size="36" font-weight="bold" fill="#22c55e">96%</text>
+  <text x="80" y="520" font-family="system-ui" font-size="9" fill="#64748b">R² Score: 0.94</text>
+
+  <rect x="240" y="420" width="160" height="140" rx="12" fill="#1e293b"/>
+  <text x="260" y="455" font-family="system-ui" font-size="10" fill="#64748b">Lead Time</text>
+  <text x="260" y="495" font-family="system-ui" font-size="36" font-weight="bold" fill="#3b82f6">72</text>
+  <text x="320" y="495" font-family="system-ui" font-size="14" fill="#64748b">hrs</text>
+  <text x="260" y="520" font-family="system-ui" font-size="9" fill="#64748b">Before failure</text>
+
+  <rect x="420" y="420" width="160" height="140" rx="12" fill="#1e293b"/>
+  <text x="440" y="455" font-family="system-ui" font-size="10" fill="#64748b">Cost Savings</text>
+  <text x="440" y="495" font-family="system-ui" font-size="36" font-weight="bold" fill="#8b5cf6">$2.4M</text>
+  <text x="440" y="520" font-family="system-ui" font-size="9" fill="#64748b">Annual savings</text>
+
+  <rect x="600" y="420" width="140" height="140" rx="12" fill="#1e293b"/>
+  <text x="620" y="455" font-family="system-ui" font-size="10" fill="#64748b">Downtime</text>
+  <text x="620" y="495" font-family="system-ui" font-size="36" font-weight="bold" fill="#f59e0b">-85%</text>
+  <text x="620" y="520" font-family="system-ui" font-size="9" fill="#64748b">Reduction</text>
+</svg>
