@@ -1,0 +1,7 @@
+# Robots.txt for khizerhayat.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://khizerhayat.dev/sitemap.xml
